@@ -20,20 +20,23 @@ def make_visable_word(word):
     return  "*" * len(word)
 
 
+# open('u.item', encoding = "ISO-8859-1") 
 
-
-filename = 'zdf-win.txt'
+filename = 'zdf-win_utf8.txt'
+#lines = open(filename).read().split('\n')
 lines = open(filename).read().split('\n')
 i = ""
 answer_out = ""
 f_counter = len(lines)
 rand = random.randint(0,f_counter)
 word = lines[rand]
+#print(word)
+
 visable = make_visable_word(word)
 
 
 
-print(f'Случайное слово номер {rand} - {visable}.')
+# print(f'Случайное слово номер {rand} - {visable}.')
 
 
 
