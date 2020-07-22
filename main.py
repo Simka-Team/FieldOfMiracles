@@ -39,7 +39,7 @@ visable = make_visable_word(word)
 # print(f'Случайное слово номер {rand} - {visable}.')
 
 
-
+#TODO нужно добавить количество попыток
 
 
 
